@@ -1,0 +1,98 @@
+[options]
+#allow_bold = true
+#audible_bell = false
+#bold_is_bright = true
+#cell_height_scale = 1.0
+#cell_width_scale = 1.0
+clickable_url = true
+#clickable_url_ctrl = false
+#dynamic_title = true
+font = Hack NF Regular 10.5
+#fullscreen = true
+#icon_name = terminal
+#mouse_autohide = false
+#scroll_on_output = false
+#scroll_on_keystroke = true
+word_char_exceptions = -=&#:/.?@+~_%;
+# Length of the scrollback buffer, 0 disabled the scrollback buffer
+# and setting it to a negative value means "infinite scrollback"
+scrollback_lines = 100000
+#search_wrap = true
+#urgent_on_bell = true
+#hyperlinks = false
+
+# $BROWSER is used by default if set, with xdg-open as a fallback
+#browser = xdg-open
+
+# "system", "on" or "off"
+cursor_blink = off
+
+# "block", "underline" or "ibeam"
+#cursor_shape = block
+
+# Hide links that are no longer valid in url select overlay mode
+#filter_unmatched_urls = true
+
+# Emit escape sequences for extra modified keys
+#modify_other_keys = false
+
+# set size hints for the window
+#size_hints = false
+
+# "off", "left" or "right"
+#scrollbar = off
+
+# Whether to prefer using the GTK dark theme variant.
+#gtk_dark_theme = true
+
+# Enable smart copy. ^C will copy if text has been selected. ^V will paste. It
+# is no longer possible to send a ^V to the running program when this option is
+# enabled.
+#smart_copy = false
+
+[colors]
+# If both of these are unset, cursor falls back to the foreground color,
+# and cursor_foreground falls back to the background color.
+cursor = #d2c7c5
+cursor_foreground = #d2c7c5
+
+foreground = #d2c7c5
+#foreground_bold = #ffffff
+#background = #141313
+
+# 20% background transparency (requires a compositor)
+background = rgba(10, 10, 10, 0.9)
+
+# If unset, will reverse foreground and background
+highlight = #2f2f2f
+
+# Colors from color0 to color254 can be set
+color0 = #1e1817
+color1 = #28211f
+color2 = #3b312f
+color3 = #7dc28f
+color4 = #776460
+color5 = #9e8681
+color6 = #c2b0ad
+color7 = #c66c5d
+color8 = #636959
+color9 = #a4a33f
+color10 = #566c8c
+color11 = #3d9669
+color12 = #344ca7
+color13 = #d36839
+color14 = #4f4ca9
+color15 = #95bcdd
+
+[hints]
+font = Hack Nerd Font 12
+#foreground = #dcdccc
+#background = #3f3f3f
+#active_foreground = #e68080
+#active_background = #3f3f3f
+#padding = 2
+border = #464e5e
+border_width = 2
+#roundness = 2.0
+
+# vim: ft=dosini cms=#%s
